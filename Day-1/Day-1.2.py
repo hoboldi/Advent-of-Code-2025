@@ -35,7 +35,4 @@ for command in commands:
         zeros += abs(math.floor((count + number) / 100))
         count = (count + number) % 100
 
-    print(f"Number of zeros {zeros} after command: {command}.")
-    print(f"Dial position: {count}")
-
 print(zeros)
